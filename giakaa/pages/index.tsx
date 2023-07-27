@@ -143,14 +143,14 @@ const renderButton = () => {
   return (
     <div className="overflow-x-hidden">
 
-<div className="flex flex-col md:inline-flex lg:flex-row lg:justify-between lg:w-[1361px] h-[84px] mx-auto">
+<div className="flex flex-col md:inline-flex lg:flex-row lg:justify-between lg:w-[100%] h-[84px] mx-auto">
   <div className="lg:flex lg:items-center md:items-center md:space-x-3 md:inline-flex flex-start">
     <div className="text-white text-opacity-75 text-lg font-medium leading-7 text-center">About</div>
     <div className="text-white text-opacity-75 text-lg font-medium leading-7 text-center">Collection</div>
     <div className="text-white text-opacity-75 text-lg font-medium leading-7 text-center">FAQs</div>
   </div>
   <div className="flex items-center mt-2 lg:mt-0 md:flex md:items-center md:justify-end">
-    <div className="lg:min-w-[183px] lg:min-h-[47px] min-w-full min-h-[47px] pl-7 pr-[31px] pt-2 pb-2.5 bg-slate-500 bg-opacity-50 rounded-[100px]">
+    <div className="lg:min-w-[143px] lg:min-h-[47px] min-w-full min-h-[47px] pl-7 pr-4 pt-2 pb-2.5 bg-slate-500 bg-opacity-50 rounded-[100px]">
       {renderButton()}
     </div>
     <div className="lg:ml-8 flex space-x-3.5">
@@ -170,7 +170,7 @@ const renderButton = () => {
   </div>
 </div>
 
-<div className="w-full sm:w-[1512px] h-[606px] px-[12px] sm:px-[308px] py-[131px] sm:py-[131px] bg-neutral-900 justify-center items-center sm:inline-flex lg:inline-flex lg:w-full lg:h-full lg:justify-center lg:items-center">
+<div className="w-[100%] sm:w-[1512px] h-[606px] px-[12px] sm:px-[308px] py-[131px] sm:py-[131px] bg-neutral-900 justify-center items-center sm:inline-flex lg:inline-flex lg:w-full lg:h-full lg:justify-center lg:items-center">
   <div className="flex-col justify-center items-center gap-[16px] sm:gap-[38px] sm:inline-flex sm:justify-center">
     <div className="text-center">
       <span className="text-white text-[24px] sm:text-[44px] font-medium leading-[36px] sm:leading-[78px]">The project that inspired the modern </span>
@@ -206,7 +206,7 @@ const renderButton = () => {
 
 
 
-<div className="w-full md:w-[1361px] h-[auto md:h-[691px]] py-[131px] flex flex-col justify-center items-center gap-[74px]">
+<div className="w-[100%] md:w-[100%] h-[auto md:h-[691px]] py-[131px] flex flex-col justify-center items-center gap-[74px]">
   <div className="text-center text-white text-[26px] font-medium leading-[39px]">Featured in</div>
   <div className="md:flex flex-col md:flex-row justify-start items-start gap-7">
     <div className="h-[316px] px-px pt-px pb-5 rounded-[28px] border border-neutral-600 flex flex-col justify-start items-center gap-[19px]">
@@ -246,7 +246,7 @@ const renderButton = () => {
 
 
 
-<div className="w-[1512px] h-[491px] px-[75.59px] py-3 bg-neutral-900 rounded-bl-[55.99px] rounded-br-[55.99px] justify-start items-start inline-flex">
+<div className="w-[100%] h-[491px] px-[75.59px] py-3 bg-neutral-900 rounded-bl-[55.99px] rounded-br-[55.99px] justify-start items-start inline-flex">
   <div className="h-[1291px] pt-[130px] pb-[131px] flex-col justify-start items-start gap-[131px] inline-flex">
     <div className="w-[1342px] justify-start items-start gap-[352px] inline-flex">
       <div className="text-white text-[53px] font-medium leading-[67px]">Meet the Punks</div>
@@ -267,7 +267,7 @@ const renderButton = () => {
 
 
 
-<div className="lg: w-[1361px] justify-start items-start pt-9 gap-[93px] lg:flex-row inline-flex md:flex flex-col">
+<div className="lg:w-[100%] justify-start items-start pt-9 gap-[93px] lg:flex-row inline-flex md:flex flex-col">
       <div className="h-[523px] flex-col justify-start items-start gap-[19px] inline-flex ">
         <div className="w-[634px] h-[162px] pl-[38px] pr-[47px] py-[38px] bg-slate-500 rounded-[28px] border border-slate-500 justify-start items-start inline-flex">
           <div className="w-[549px] text-white text-[28px] font-medium leading-[42px]">Punks with a blue background are not for sale and have no current bids.</div>
@@ -279,11 +279,155 @@ const renderButton = () => {
           <div className="w-[519px] text-white text-[28px] font-medium leading-[42px]">Punks with a purple background have an active bid on them</div>
         </div>
       </div>
-      <div className="w-[634px] h-[634px] justify-center items-center flex">
-        <img className="w-[634px] h-[634px] rounded-[37px]" src="https://s3-alpha-sig.figma.com/img/70dc/a3eb/45b248f677fc0e5b8887e6f43d57af89?Expires=1691366400&Signature=RNRL2g8bW5OR4Wk96B-QYcH-5Cv0Q-GqGf4J~RXs24yE8JiyNB8ywtv4rBReTiJqtTklgowUrK0gkIjbGwEhzbMGfvsDRURGIhlenb9WaDYZoNvSg9TVOTnJzoNAOEFrzuM1JHqVx~CYEJ-UDyqUEs7FOYq~x519gocy0cT4Z7XBgznl6c7mz2755qybNpVYEvAFAEB3G2u1s9lOZ4MqlOoUTWJUBDkgXGQbJHgNv4iPYMw979Fo1EDgrVKEnizozgw8CUX~BpdSW6OmCCQfHtKMefL0LIPl9cYH30u1BQ-M1-EdGPQdnfwQg2vASI0h7I4hjKh98cXxG108Q3mq~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+      <div className="w-[634px] h-[634px] justify-start items-start flex">
+        <img className="w-[634px] h-[634px] rounded-[37px] md: w-[524px] h-[524px]" src="https://s3-alpha-sig.figma.com/img/70dc/a3eb/45b248f677fc0e5b8887e6f43d57af89?Expires=1691366400&Signature=RNRL2g8bW5OR4Wk96B-QYcH-5Cv0Q-GqGf4J~RXs24yE8JiyNB8ywtv4rBReTiJqtTklgowUrK0gkIjbGwEhzbMGfvsDRURGIhlenb9WaDYZoNvSg9TVOTnJzoNAOEFrzuM1JHqVx~CYEJ-UDyqUEs7FOYq~x519gocy0cT4Z7XBgznl6c7mz2755qybNpVYEvAFAEB3G2u1s9lOZ4MqlOoUTWJUBDkgXGQbJHgNv4iPYMw979Fo1EDgrVKEnizozgw8CUX~BpdSW6OmCCQfHtKMefL0LIPl9cYH30u1BQ-M1-EdGPQdnfwQg2vASI0h7I4hjKh98cXxG108Q3mq~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
       </div>
     </div>
 
+    <div className="lg:w-[100%] lg:h-[974px] pt-[131px] flex-col justify-start items-start gap-[93px] inline-flex bg-white">
+  <div className="lg:w-[1361px] lg:h-[67px] relative">
+    <div className="left-0 top-0 absolute text-neutral-900 text-3xl md:text-2xl lg:text-4xl font-medium leading-[67px]">Largest Sales</div>
+    <div className="w-[159px] h-[61px] pl-[38px] pr-10 pt-3.5 pb-[15px] left-[1208px] top-[3px] absolute rounded-[100px] border border-neutral-900 border-opacity-20 justify-start items-start inline-flex">
+      <div className="text-center text-neutral-900 text-lg md:text-xl lg:text-2xl font-medium leading-[31px]">View all</div>
+    </div>
+  </div>
+
+  <div className="lg:w-[100%] lg:h-[683px] pr-[0] pb-8 md:pb-16 lg:pb-28 justify-start items-start inline-flex overflow-hidden">
+    <div className="w-[454px] h-[571px] relative">
+      <div className="w-[426px] h-[571px] left-0 top-0 absolute">
+        <div className="w-[426px] h-[426px] left-0 top-0 absolute">
+          <img className="w-[426px] h-[426px] left-0 top-0 absolute rounded-[28px]" src="https://s3-alpha-sig.figma.com/img/0d6b/388f/e434d5156e3f016f97404aec1a3fb289?Expires=1691366400&Signature=OP27bkbnB5m1OZzCdDaRAH9DQ3ImThL5BgfjTxFb94mz2FklqICLBc3WNpS7IbGKoHrhCOKYUlZ4p-Cz4280gJkN9UiRBbVD6QroeleNOGSBGNfxgCXpKLMbzE3dJkmxYsQRQPE-23tvcl2bDr7M2WgtKNcp4ZGEo5lp2XcH5WHIQQaIivUBhECg7in84s9LhmM4Red-VZCC-KDaSDJulkVkUTpD29iJYnjgJutdEmNH-AbPvQrRfs61dQiVdJZqoxAQ4UOqtrqP7gXa5yGnR8q2pxexDIMoPAD3rDeiJRH6man2R2nuOzVN9hR4RqmrtNQd1o5fwbgPAVnXbT7Lcw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+        </div>
+      </div>
+      <div className="w-[426px] h-[571px] lg:left-[454px] lg:top-0 absolute">
+        <div className="w-[426px] h-[426px] left-0 top-0 absolute">
+          <img className="w-[426px] h-[426px] left-0 top-0 absolute rounded-[28px]" src="https://s3-alpha-sig.figma.com/img/8d50/c9fc/8f3b046b7634434d368c402e0f1af980?Expires=1691366400&Signature=Hyr2AtzBGe5GfdfLBcuFVsv~UVLYtz8JQeeP-23uq~zBgcgV59L6nR~tKZgAbGo5eYDp2J3braBtQ1L-H85bX3Lps4H8B-3Tj2jV9jppx5hZOV8vDXsLg14ONsRb2AdaWo9hwtHBjqv1TmABL9fDXXvqee~-JRctMnS1pxdI9QC1D3BYCCbeKqKqEXkcTVsjbvqd~UhNBJlwzpEcRGOCPihSbwcPwU3SNM~6zywogorp8y8nwLAdKzXaTPhoWZNBy8VhpZ9TdREy~j-ah46NLLDbVqZvHNWhvGScW~T1a5KNSEisuH2nkAPFlBsz5IOG8GbrNli0ZVV3zEhuzLsyIg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+        </div>
+      </div>
+      <div className="w-[426px] h-[571px] lg:left-[907px] lg:top-0 absolute">
+        <div className="w-[426px] h-[426px] left-0 top-0 absolute">
+          <img className="w-[426px] h-[426px] left-0 top-0 absolute rounded-[28px]" src="https://s3-alpha-sig.figma.com/img/f1e5/7cfb/c27f8af87507a7e5898f9eb0aa97ebc5?Expires=1691366400&Signature=cSWsZaU-sWVX252uGxQS0tbm9oM-VrwCaxfftc7xKCOCs7daOc71NafOSQDShKFBIcohriYIyxHrT1vzerNuGM5KIWlnC9-VVLH1A9YnZP7~tKiGtMVru460AIcu-O34sJ-QQOKYHWxnq1fQ7NP-FzIIxHlIj0M9QJvcwMFzu-EmgDc7i2k2sTR319HDbVSa9ui24YvNTMcTxJxjubEDsThxtO~WZQNUG~LJIZ-6g55hYWSwAA4gSSytPiPhbVcYnVFhzupRRa7KH7628KvcOgGiNlL0m-xwOzz1kaLQj2wb0F8AfU2Tz-6tr6Po8s7xBiAHqjLJWknterCg2Pq5jg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+        </div>
+      </div>
+    </div>
+    <div className="w-[65px] h-[65px] left-0 top-[618px] absolute bg-white rounded-[65px] border border-neutral-900 border-opacity-20">
+      <div className="left-[21px] top-[21px] absolute justify-start items-start inline-flex">
+        <div className="w-4 h-4 md:w-6 md:h-6 lg:w-7 lg:h-7 relative" />
+      </div>
+    </div>
+    <div className="w-[65px] h-[65px] lg:left-[75px] lg:top-[618px] absolute bg-white rounded-[65px] border border-neutral-900 border-opacity-20">
+      <div className="left-[21px] top-[21px] absolute justify-start items-start inline-flex">
+        <div className="w-4 h-4 md:w-6 md:h-6 lg:w-7 lg:h-7 relative" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div className="w-full lg:w-[100%] h-auto pt-8 pb-32 md:pb-28 flex flex-col items-start gap-4 md:gap-24 bg-white">
+  <div className="w-full lg:w-[100%] h-auto relative">
+    <div className="left-0 top-0 absolute text-neutral-900 text-lg md:text-5xl font-medium leading-6 md:leading-10">Recent Transactions</div>
+    <div className="w-36 h-10 md:h-16 pl-3 md:pl-9 pr-4 md:pr-10 py-2 md:py-3.5 left-[calc(100% - 6rem)] md:left-auto top-[32px] md:top-[28px] absolute rounded-full border border-neutral-900 border-opacity-20 flex justify-center items-center">
+      <div className="text-center text-xs md:text-xl font-medium leading-5 md:leading-loose">View all</div>
+    </div>
+  </div>
+  <div className="w-full lg:w-[1361px] h-auto pr-4 md:pr-96 pb-8 md:pb-28 inline-flex items-start gap-4 md:gap-7">
+    <div className="w-full h-auto relative">
+      <img className="w-full h-auto md:w-[400px] lg:w-[600px] left-0 top-0 absolute md:static rounded-3xl" src="https://via.placeholder.com/426x426" />
+      <div className="pr-4 md:pr-44 flex flex-col justify-start items-start">
+        <div className="text-neutral-900 text-sm md:text-2xl font-medium leading-6 md:leading-10">#1254</div>
+        <div className="text-neutral-900 text-xs md:text-lg font-normal leading-5 md:leading-loose">New bid of 51.20Ξ ($210,265)</div>
+      </div>
+    </div>
+    <div className="w-full h-auto relative">
+      <img className="w-full h-auto md:w-[400px] lg:w-[600px] left-0 top-0 absolute md:static rounded-3xl" src="https://via.placeholder.com/426x426" />
+      <div className="pr-4 md:pr-48 flex flex-col justify-start items-start">
+        <div className="text-neutral-900 text-sm md:text-2xl font-medium leading-6 md:leading-10">#9844</div>
+        <div className="text-neutral-900 text-xs md:text-lg font-normal leading-5 md:leading-loose">New bid of 111Ξ ($455,848)</div>
+      </div>
+    </div>
+    <div className="w-full h-auto relative">
+      <img className="w-full h-auto md:w-[400px] lg:w-[600px] left-0 top-0 absolute md:static rounded-3xl" src="https://via.placeholder.com/426x426" />
+      <div className="pr-4 md:pr-40 flex flex-col justify-start items-start">
+        <div className="text-neutral-900 text-sm md:text-2xl font-medium leading-6 md:leading-10">#4156</div>
+        <div className="text-neutral-900 text-xs md:text-lg font-normal leading-5 md:leading-loose">Offered for 63.95Ξ ($262,626)</div>
+      </div>
+    </div>
+    <div className="w-full h-auto relative">
+      <img className="w-full h-auto md:w-[400px] lg:w-[600px] left-0 top-0 absolute md:static rounded-3xl" src="https://via.placeholder.com/426x426" />
+      <div className="pr-4 md:pr-40 flex flex-col justify-start items-start">
+        <div className="text-neutral-900 text-sm md:text-2xl font-medium leading-6 md:leading-10">#4156</div>
+        <div className="text-neutral-900 text-xs md:text-lg font-normal leading-5 md:leading-loose">Offered for 63.95Ξ ($262,626)</div>
+      </div>
+    </div>
+    <div className="w-full h-auto relative">
+      <img className="w-full h-auto md:w-[400px] lg:w-[600px] left-0 top-0 absolute md:static rounded-3xl" src="https://via.placeholder.com/426x426" />
+      <div className="pr-4 md:pr-40 flex flex-col justify-start items-start">
+        <div className="text-neutral-900 text-sm md:text-2xl font-medium leading-6 md:leading-10">#4156</div>
+        <div className="text-neutral-900 text-xs md:text-lg font-normal leading-5 md:leading-loose">Offered for 63.95Ξ ($262,626)</div>
+      </div>
+    </div>
+  </div>
+  <div className="w-16 h-16 bg-white rounded-3xl border border-neutral-900 border-opacity-20">
+    <div className="w-6 h-6 relative left-6 top-6 md:left-[21px] md:top-[21px] justify-start items-start inline-flex">
+      <div className="w-3 h-3 relative" />
+    </div>
+  </div>
+  <div className="w-16 h-16 bg-white rounded-3xl border border-neutral-900 border-opacity-20">
+    <div className="w-6 h-6 relative left-6 top-6 md:left-[21px] md:top-[21px] justify-start items-start inline-flex">
+      <div className="w-3 h-3 relative" />
+    </div>
+  </div>
+</div>
+
+
+<div className="w-96 h-96 px-20 py-32 bg-neutral-900 rounded-tl-3xl rounded-tr-3xl justify-start items-start inline-flex">
+  <div className="w-96 h-96 relative">
+    <div className="left-0 top-[27px] absolute text-white text-5xl font-medium leading-10">How do I get a punk?</div>
+    <div className="left-[626px] top-0 absolute flex-col justify-start items-start inline-flex">
+      <div className="w-px h-96 left-[45px] top-[90px] absolute bg-white bg-opacity-20" />
+      <div className="w-96 h-96 relative">
+        <div className="w-96 h-72 left-[140px] top-[47px] absolute">
+          <img className="w-14 h-14 left-0 top-0 absolute" src="https://via.placeholder.com/56x56" />
+          <div className="w-80 h-6 left-0 top-[88px] absolute text-white text-xl font-medium leading-loose">Download and install MetaMask</div>
+          <div className="w-96 h-20 left-0 top-[139px] absolute"><span className="text-white text-opacity-80 text-lg font-normal leading-7">Download and install a Chrome browser plugin called </span><span className="text-white text-opacity-80 text-lg font-normal underline leading-7">MetaMask</span><span className="text-white text-opacity-80 text-lg font-normal leading-7">. This will allow websites (that you authorise) access to your Ethereum account.</span></div>
+          <div className="w-56 h-12 pl-6 pr-7 pt-2 pb-2.5 left-0 top-[247px] absolute rounded-full border border-white border-opacity-25 justify-start items-start inline-flex">
+            <div className=" text-white text-lg font-medium leading-7 min-w-[300px]">Download MetaMask</div>
+          </div>
+        </div>
+        <div className="w-24 h-24 p-5 left-[1px] top-[28px] absolute bg-neutral-900 justify-start items-start inline-flex">
+          <div className="w-14 h-14 relative">
+            <div className="w-14 h-14 left-0 top-0 absolute" />
+          </div>
+        </div>
+      </div>
+      <div className="w-96 h-72 relative">
+        <div className="w-96 h-48 left-[140px] top-[47px] absolute">
+          <img className="w-14 h-14 left-0 top-0 absolute" src="https://via.placeholder.com/56x56" />
+          <div className="w-52 h-6 left-0 top-[88px] absolute text-white text-xl font-medium leading-loose">Buy some Ethereum</div>
+          <div className="w-96 left-0 top-[134px] absolute text-white text-opacity-80 text-lg font-normal leading-7">If you made a new account, buy some Ethereum. The MetaMask plugin has a button that will allow you to buy Ether from Coinbase.</div>
+        </div>
+        <div className="w-24 h-24 p-5 left-[1px] top-[28px] absolute bg-neutral-900 justify-start items-start inline-flex">
+          <div className="w-14 h-14 relative">
+            <div className="w-14 h-14 left-0 top-0 absolute" />
+          </div>
+        </div>
+      </div>
+      <div className="w-96 h-56 relative">
+        <div className="pr-2 left-[140px] top-[46px] absolute flex-col justify-start items-start gap-1 inline-flex">
+          <div className="text-white text-xl font-medium leading-loose">Start bidding, buying and selling</div>
+          <div className="w-96 text-white text-opacity-80 text-lg font-normal leading-7">Once you have the plugin installed, this website will recognise it and add buttons that allow you to bid on, buy and sell punks directly in the interface.</div>
+        </div>
+        <div className="w-24 h-24 p-5 left-[1px] top-[28px] absolute bg-neutral-900 justify-start items-start inline-flex">
+          <div className="w-14 h-14 relative">
+            <div className="w-14 h-14 left-0 top-0 absolute" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   </div>
   )
