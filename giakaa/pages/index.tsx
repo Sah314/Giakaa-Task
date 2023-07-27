@@ -203,9 +203,6 @@ const renderButton = () => {
     <img className="w-[187px] h-[187px] px-1 top-0" src="https://s3-alpha-sig.figma.com/img/cbb8/27f6/d02c895f811f4f9c5d2af894faae8de6?Expires=1691366400&Signature=YqkK9x6P~L3Nsd1krrIrxQxD-uxEPxMnMvS0ZGTjUTjsr9ai7ceZMVNW0TyC44vAc2Gw8tv63VcsIIHBQQMDTpGLi42xgHDuGwkciagne3CYncMej~~BKZrBdOvGq5gKkfKM-59NYY8iFYzHfbssxEdCny0eeOQlrVGfwb9XipPb4ZPIdfVvId6lrnjw4ZnypPT4X0QFv3vx-XvPFMGLdux7x7QTVbeWrmSV0JkJnVJe2ZoTxkYmaCD0vEbUwgl90Qq4YKaTNuw6I51rcjyXzuSw4ExWXbwONyQfYAysJfYRQUVv35HS4JvFSF0f6Cl9NEciBeFtjVujcnxEQ3jtuw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
   </div>
 
-
-
-
 <div className="w-[100%] md:w-[100%] h-[auto md:h-[691px]] py-[131px] flex flex-col justify-center items-center gap-[74px]">
   <div className="text-center text-white text-[26px] font-medium leading-[39px]">Featured in</div>
   <div className="md:flex flex-col md:flex-row justify-start items-start gap-7">
@@ -280,7 +277,7 @@ const renderButton = () => {
         </div>
       </div>
       <div className="w-[634px] h-[634px] justify-start items-start flex">
-        <img className="w-[634px] h-[634px] rounded-[37px] md: w-[524px] h-[524px]" src="https://s3-alpha-sig.figma.com/img/70dc/a3eb/45b248f677fc0e5b8887e6f43d57af89?Expires=1691366400&Signature=RNRL2g8bW5OR4Wk96B-QYcH-5Cv0Q-GqGf4J~RXs24yE8JiyNB8ywtv4rBReTiJqtTklgowUrK0gkIjbGwEhzbMGfvsDRURGIhlenb9WaDYZoNvSg9TVOTnJzoNAOEFrzuM1JHqVx~CYEJ-UDyqUEs7FOYq~x519gocy0cT4Z7XBgznl6c7mz2755qybNpVYEvAFAEB3G2u1s9lOZ4MqlOoUTWJUBDkgXGQbJHgNv4iPYMw979Fo1EDgrVKEnizozgw8CUX~BpdSW6OmCCQfHtKMefL0LIPl9cYH30u1BQ-M1-EdGPQdnfwQg2vASI0h7I4hjKh98cXxG108Q3mq~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+        <img className="rounded-[37px] md: w-[524px] h-[524px]" src="https://s3-alpha-sig.figma.com/img/70dc/a3eb/45b248f677fc0e5b8887e6f43d57af89?Expires=1691366400&Signature=RNRL2g8bW5OR4Wk96B-QYcH-5Cv0Q-GqGf4J~RXs24yE8JiyNB8ywtv4rBReTiJqtTklgowUrK0gkIjbGwEhzbMGfvsDRURGIhlenb9WaDYZoNvSg9TVOTnJzoNAOEFrzuM1JHqVx~CYEJ-UDyqUEs7FOYq~x519gocy0cT4Z7XBgznl6c7mz2755qybNpVYEvAFAEB3G2u1s9lOZ4MqlOoUTWJUBDkgXGQbJHgNv4iPYMw979Fo1EDgrVKEnizozgw8CUX~BpdSW6OmCCQfHtKMefL0LIPl9cYH30u1BQ-M1-EdGPQdnfwQg2vASI0h7I4hjKh98cXxG108Q3mq~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
       </div>
     </div>
 

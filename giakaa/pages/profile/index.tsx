@@ -74,7 +74,7 @@ export default function Profile(){
   
         if(walletConnected){
           return(
-            <section className={{ fontFamily: 'Montserrat' }} className="flex font-medium items-center justify-center h-screen">
+            <section className="flex font-medium items-center justify-center h-screen">
         <section className="w-164 mx-auto bg-slate-500 bg-opacity-50 rounded-2xl px-8 py-6 shadow-lg">
           <div className="mt-6 w-fit mx-auto">
             <img src="https://s3-alpha-sig.figma.com/img/8894/b17a/54bf26393893d2401f4cec62b085db95?Expires=1691366400&Signature=q5liJPwYs6UnBsio1CgULVhuVAApPrD2mh8oNLWiJ8VOgrCTackwZz82R03GJlcZrcx1TuacG1lNy0s9wuI3ZwcKQNOplmd2ujFHnC2jQG5gAqUIwRdc2SDppWCDqrnkIT2wrJ2oR24obMIDLMfOlBDWzLR3CmQX~MrQMmzw5ypCak0PN0E9eNihaTVGoKtISxIKTxhPGWBVCtJHD0V7HmZchmNRb7OE07lLMkiYRsKamEAZGHaPU33yyHT2RnVqZhAFGD381wZpOL95LFWaiGjY-j4lcdeLPx34WbrFycMyJY8KE0BJv-fQLcr8QHOoo0E~E6lXPDeuPf9V43Vm3w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" className="rounded-full w-28 " alt="profile picture" />
