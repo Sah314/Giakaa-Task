@@ -8,3 +8,6 @@
 
 Profile is also visible through dropdown menu from the connectwallet button:
 ![image](https://github.com/Sah314/Giakaa-Task/assets/82277915/de40a459-8316-4525-bf07-c38f2dc71e8a)
+
+Landing page:
+![image](https://github.com/Sah314/Giakaa-Task/assets/82277915/2ed7a89f-c83a-46de-8ae4-6cee459d5387)
